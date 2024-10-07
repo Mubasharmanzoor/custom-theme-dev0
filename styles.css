@@ -76,7 +76,7 @@ ul {
   grid-template-columns: auto 1fr auto;
   align-items: center;
   padding: 1rem;
-  grid-template-areas: " navigation logo header-icon ";
+  grid-template-areas: "header-icon navigation logo";
 }
 .nav-logo2 {
   width: 100%;
@@ -130,3 +130,39 @@ ul {
     grid-template-columns: 1fr auto;
   }
 }
+
+/* bannar */
+.banner {
+  max-width: 100vw;
+  position: relative;
+}
+.banner img {
+  width: 100%;
+}
+.banner-button {
+  margin: 1rem;
+  padding: 1rem 7rem;
+  background-color: #ca9a5a;
+  color: aliceblue;
+  border-radius: 29px;
+  outline: none;
+  border: none;
+  font-size: large;
+}
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+.banner-text h1 {
+  font-size: clamp(50px, 5vw, 82px);
+  font-weight: 400;
+}   
