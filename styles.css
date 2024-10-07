@@ -66,7 +66,7 @@ ul {
   grid-template-columns: auto 1fr auto;
   align-items: center;
   padding: 1rem;
-  grid-template-areas: "navigation logo  header-icon";
+  grid-template-areas: " logo navigation header-icon";
 }
 .nav-logo1 {
   text-align: center;
@@ -76,7 +76,7 @@ ul {
   grid-template-columns: auto 1fr auto;
   align-items: center;
   padding: 1rem;
-  grid-template-areas: "navigation logo  header-icon";
+  grid-template-areas: " navigation logo header-icon ";
 }
 .nav-logo2 {
   width: 100%;
