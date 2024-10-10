@@ -52,21 +52,3 @@ latestArrivals.innerHTML = products.map(({ price, imageSrc, title }, index) => {
         </div>
     `;
 }).join('');
-   
-
-
-function myFunction(){
-var x = document.getElementById("menu");
-if(x.style.display == "block"){
-    x.style.display ="none"
-}
-else{
-      x.style.display ="block";
-}
-}
-
-// x icon??//
-// function onClickMenu(){
-//     document.getElementById("menu").classList.toggle("x-icon")
-//     document.getElementById("x-id").classList.toggle("change")
-// }       
