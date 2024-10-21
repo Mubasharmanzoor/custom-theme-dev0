@@ -65,7 +65,7 @@ else{
 }
 }
 
-// x icon??//
+// x icon??/
 // function onClickMenu(){
 //     document.getElementById("menu").classList.toggle("x-icon")
 //     document.getElementById("x-id").classList.toggle("change")

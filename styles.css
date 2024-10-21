@@ -86,7 +86,7 @@ ul {
   padding: 1rem;
   grid-template-areas: " mobile-nav-icon logo navigation  header-icon";
 }
-.mobile-nav {
+.mobi         le-nav {
   grid-area: "mobile-nav-icon";
 }
 .mobile-nav-links {
