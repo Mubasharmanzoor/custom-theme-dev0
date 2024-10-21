@@ -63,30 +63,21 @@ ul {
 .nav-logo {
   width: 100%;
   display: grid;
-  grid-template-columns: auto 1fr auto auto;
+  grid-template-columns: 1fr auto auto;
   align-items: center;
   padding: 1rem;
   grid-template-areas: " mobile-nav-icon  logo navigation header-icon";
 }
-.nav-logo {
-  text-align: center;
 
-  width: 100%;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  padding: 1rem;
-  grid-template-areas: "header-icon navigation logo";
-}
 .nav-logo2 {
   width: 100%;
   display: grid;
-  grid-template-columns: auto 1fr auto auto;
+  grid-template-columns: auto 1fr 1fr 1fr;
   align-items: center;
   padding: 1rem;
   grid-template-areas: " mobile-nav-icon logo navigation  header-icon";
 }
-.mobi         le-nav {
+.mobi le-nav {
   grid-area: "mobile-nav-icon";
 }
 .mobile-nav-links {
