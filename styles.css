@@ -26,8 +26,9 @@ body {
   padding: 0 3rem;
 }
 
-.container-ful--width {
+.container-full--width {
   max-width: 100%;
+  padding: 0;
 }
 
 .section-padding {
@@ -39,10 +40,10 @@ img {
   max-width: 100%;
 }
 
-#anouncement-bar {
+#announcement-bar {
   background-color: brown;
   color: white;
-  padding: 0.5rem;
+
   text-align: center;
   font-weight: 400;
 }
@@ -233,4 +234,79 @@ details[open] .mob_links_container {
   .banner {
     display: flex;
   }
+}
+/* image with tex */
+
+#collection-text {
+  margin: 3rem;
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  overflow-x: hidden;
+  padding: 1rem 2rem;
+  column-gap: 2rem;
+  background-color: antiquewhite;
+}
+#collection-text .img-wrapper .images-wrapper {
+  /* width: 100%;
+  max-height: 60%; */
+}
+
+#collection-text .img-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#collection-text .img-wrapper img {
+  /* object-fit: cover; */
+  width: 100%;
+  max-height: 60%;
+}
+#collection-text .text-wripper {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 2rem;
+}
+.text-wripper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 6rem;
+}
+.text-wripper h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.text-wripper p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  
+}
+.text-wripper .heading-btn {
+  font-size: 2rem;
+  padding: 1rem 8rem;
+  background-color: #ca9a5a;
+  color: aliceblue;
+  border-radius: 29px;
+  outline: none;
+  border: none;
+}
+.text-section {
+  padding-left: 7rem;
+}
+/* Responsive  text with images*/
+@media (max-width: 991px) {
+  #collection-text {
+    display: block;
+  }
+  .text-wripper {
+    display: block;
+   
+  }
+  .text-wripper h2 {
+    font-size: 3rem;
+    font-weight: 700;
+   padding-left: block;
 }
